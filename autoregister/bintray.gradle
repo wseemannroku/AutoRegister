@@ -5,7 +5,7 @@ properties.load(project.rootProject.file('local.properties').newDataInputStream(
 def artifact_version='1.4.3'
 def artifact_group = 'com.ooftf'
 def artifact_id = 'autoregister'
-def resName = 'autoRegister'
+def resName = 'autoregister'
 // 定义两个链接，下面会用到。
 def siteUrl = 'https://github.com/luckybilly/AutoRegister' // 项目主页。
 def gitUrl = 'git@github.com:luckybilly/AutoRegister.git' // Git仓库的url。

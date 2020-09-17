@@ -1,6 +1,6 @@
 # 自动注册插件
 
-最新版本:[![Download](https://api.bintray.com/packages/hellobilly/android/AutoRegister/images/download.svg)](https://bintray.com/hellobilly/android/AutoRegister/_latestVersion)
+最新版本:[ ![Download](https://api.bintray.com/packages/ooftf/maven/autoregister/images/download.svg) ](https://bintray.com/ooftf/maven/autoregister/_latestVersion)
 
 [原理说明](https://juejin.im/post/5a2b95b96fb9a045284669a9)
 
@@ -49,13 +49,18 @@ public class CategoryManager {
 
 - 在工程根目录的build.gradle中添加依赖：
 ```groovy
+ repositories {
+        maven {
+            url "https://dl.bintray.com/ooftf/maven"
+        }
+    }
 buildscript {
     repositories {
         jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.0'
-        classpath 'com.billy.android:autoregister:x.x.x'
+        classpath 'com.ooftf:autoregister:x.x.x'
     }
 }
 ```
