@@ -1,5 +1,5 @@
 apply plugin: 'groovy'
-apply from: 'bintray.gradle'
+apply plugin: 'ooftf-maven'
 dependencies {
     implementation gradleApi()
     implementation localGroovy()
@@ -8,18 +8,13 @@ dependencies {
 repositories {
     mavenCentral()
 }
+publish {
+    version = '1.4.3'//-snapshot
+}
 dependencies {
     implementation 'com.android.tools.build:gradle:4.0.1'
 }
 
 
-task sourcesJar(type: Jar) {
-    from project.file('src/main/groovy')
-    classifier = 'sources'
-}
-
-artifacts {
-    archives sourcesJar
-}
 
 
