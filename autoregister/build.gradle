@@ -9,7 +9,7 @@ repositories {
     mavenCentral()
 }
 publish {
-    version = '1.4.3'//-snapshot
+    version = '1.4.4'//-snapshot
 }
 dependencies {
     implementation 'com.android.tools.build:gradle:4.0.1'
