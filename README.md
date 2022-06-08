@@ -18,7 +18,7 @@
     }
 buildscript {
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.android.tools.build:gradle:7.2.1'
         classpath 'com.github.ooftf:autoregister:x.x.x'
     }
 }
