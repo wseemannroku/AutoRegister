@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.ooftf",
+    "module": "autoregister",
+    "version": "1.4.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "autoregister-1.4.5.jar",
+          "url": "autoregister-1.4.5.jar",
+          "size": 85746,
+          "sha512": "26a35e29cf37be339380b4e44ea509972f4e1dc9b1539bbb698548487091daba7015c96a67b8dcab872d041c6d03ff0be5bb91689c772bdf9aeedd3abbde23f5",
+          "sha256": "d700bd3cc14ddab3cb55a573edde499439953a1fc327f0606521d70b268f929e",
+          "sha1": "cb959bca03f29fea3b1c31c5c66a2988be08dad0",
+          "md5": "ab5a473835b176804264bd26b6c3afd2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.2.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autoregister-1.4.5.jar",
+          "url": "autoregister-1.4.5.jar",
+          "size": 85746,
+          "sha512": "26a35e29cf37be339380b4e44ea509972f4e1dc9b1539bbb698548487091daba7015c96a67b8dcab872d041c6d03ff0be5bb91689c772bdf9aeedd3abbde23f5",
+          "sha256": "d700bd3cc14ddab3cb55a573edde499439953a1fc327f0606521d70b268f929e",
+          "sha1": "cb959bca03f29fea3b1c31c5c66a2988be08dad0",
+          "md5": "ab5a473835b176804264bd26b6c3afd2"
+        }
+      ]
+    }
+  ]
+}
